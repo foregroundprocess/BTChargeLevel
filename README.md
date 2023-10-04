@@ -13,6 +13,7 @@ You must schedule the Powershell script with Task Scheduler for repeated executi
 - Create a subfolder in Rainmeter skins folder (usually *%USERPROFILE%\Documents\Rainmeter\Skins*) and put the skin file *BTCharge.ini* into it.
 - Create somewhere on your PC a folder for the scripts and put both *BTChargeLevel.ps1* and *BTChargeLevel.vbs* into it. It is better to avoid using spaces in folder's path.
 - Create a new task in Task Scheduler. Set the trigger to run the task every 30-60 minutes. More frequent runs are not required unless your device discharges very quickly. I suggest scheduling the *BTChargeLevel.vbs* script, as running the Powershell script will make its window visible for a few seconds, which can be highly annoying. The *BTChargeLevel.vbs* script runs the *BTChargeLevel.ps1* in a hidden window.
+- Enable the skin BTChargeLevel in Rainmeter.
 
 ## Configuration
 

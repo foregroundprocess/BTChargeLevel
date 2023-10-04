@@ -16,5 +16,5 @@ You must schedule the Powershell script with Task Scheduler for repeated executi
 
 ## Configuration
 
-- Edit the *BTChargeLevel.ps1* file and change the value of the variable $BTDeviceFriendlyName to the exact name of your Bluetooth device as it is shown in the Bluetooth settings.
+- Edit the *BTChargeLevel.ps1* file and change the value of the variable `$BTDeviceFriendlyName` to the exact name of your Bluetooth device as it is shown in the Bluetooth settings.
 - Edit the *BTCharge.ini* file and change skin settings according to your needs. You can change the label of the charge level indicator by changing the line `Text=BT: %1%`. Replace BT: with the text you need. Don’t forget to change the width of the widget in case it is too short for your text. By default, it is 50 pixels: `W=50`

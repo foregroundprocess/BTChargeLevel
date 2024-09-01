@@ -1,4 +1,4 @@
-﻿#This script returns Bluetooth device battery charge level and writes it to Windows registry
+﻿#This script looks for Bluetooth device battery charge level and connection status and then writes them to Windows registry
 #Change the value below to a name of your device exactly as it is called in the Bluetooth system settings
 $BTDeviceFriendlyName = "EDIFIER WH950NB"
 

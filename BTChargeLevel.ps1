@@ -14,8 +14,8 @@ if ($BTHDevices) {
                 $BTChargeLevel = $BTDeviceProperty.Data
             }            
         
-            if (($BTDeviceProperty.KeyName -eq "{83DA6326-97A6-4088-9453-A1923F573B29} 15") -and ($null -ne $BTDeviceProperty.Data)){
-                $IsConnected = $BTDeviceProperty.Data            
+            if (($BTDeviceProperty.KeyName -eq "{83DA6326-97A6-4088-9453-A1923F573B29} 15") -and ($BTDeviceProperty.Data -eq $true)){
+                $IsConnected = $true
             }
         }
     }
